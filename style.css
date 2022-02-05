@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #121212;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(65.5deg, #aaaaaa 18%, #f2f2f2 82%);
+}
+
+.topo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  border-bottom: 1px solid #aaaaaa;
+}
+
+.menuTopo {
+  display: flex;
+  gap: 24px;
+}
+
+.menuItem {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300px;
+  font-size: 20px;
+}
+
+.logo {
+  max-height: 60px;
+}
+
+.conteudo {
+  margin-bottom: 48px;
+}
+
+.conteudo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.textoConteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tituloConteudo {
+  font-family: "Oswald", sans-serif;
+  font-weight: 600px;
+  font-size: 58px;
+}
+
+.subtituloConteudo {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400px;
+  font-size: 24px;
+}
+
+.botaoConteudo {
+  background-color: #080808;
+  color: #f2f2f2;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500px;
+  font-size: 24px;
+  width: 180px;
+  height: 48px;
+  border: none;
+  box-shadow: 3px 4px 3px #080808;
+  border-radius: 10px;
+}
+
+.botaoConteudo:hover {
+  background-color: #f2f2f2;
+  color: #080808;
+}
+
+.imagemProduto {
+  height: 350px;
+}
+
+.conteudo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.tituloConteudo2 {
+  border-top: 1px solid #080808;
+  font-family: "Oswald", sans-serif;
+  font-weight: 600px;
+  font-size: 30px;
+  padding-top: 32px;
+}
+
+.paragrafoConteudo2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400px;
+  font-size: 20px;
+}
+
+.rodape {
+  padding: 32px;
+  border-top: 1px solid #aaaaaa;
+}
+
+.rodapeImagem {
+  max-height: 80px;
+  display: block;
+  margin: 0 auto;
+}
